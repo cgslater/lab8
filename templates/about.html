@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block content %}
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">My shiny new Flask application is a website that has 5 distinct pages! Each pages has its own template and inherits from a master template!</p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+           <p class="lead">They have custom css stylesheets served from the static directory, and there is a login system using sessions that brings you to a secret page. (hint password)</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn-xl btn-outline-light" href="https://github.com/MattFritter/COSC419">
+            To Git! 
+          </a>
+        </div>
+      </div>
+    </section>
+{% endblock %}
